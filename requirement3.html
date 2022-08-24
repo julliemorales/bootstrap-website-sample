@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/custom-style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>[WD15]Bootstrap Hands On 1</title>
+  </head>
+  <body>
+    <header class="container-fluid">
+      <div class="row">
+        <div
+          class="container d-flex align-items-center justify-content-between p-3"
+        >
+          <div class="d-flex align-items-center">
+            <p class="h3 mb-0">bootstrap.</p>
+            <div>
+              <ul class="nav text-uppercase fs-6 ps-3">
+                <li class="nav-item">
+                  <a class="nav-link active navigation" href="./index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navigation" href="./blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navigation" href="./login.html">Log In</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navigation" href="./handson2.html"
+                    >Hands On 2</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Requirements
+            </button>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="./requirement1.html"
+                  >Requirement 1</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="./requirement2.html"
+                  >Requirement 2</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item active" href="./requirement3.html"
+                  >Requirement 3</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="./requirement4.html"
+                  >Requirement 4</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="./requirement5.html"
+                  >Requirement 5</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ----------MAIN-------- -->
+    <main
+      class="container p-5 d-flex flex-column justify-content-center main-rtwo pt-0 mt-5"
+    >
+      <div class="row">
+        <div>
+          <div class="mb-5">
+            <p class="display-4">Requirement 3</p>
+          </div>
+          <div class="fs-1 p-3 text-white button-styles-p">
+            <p class="mb-0">
+              Button Styles can be applied to anchor tag, input button, button
+            </p>
+            <div>
+              <a href="#" class="btn btn-light btn-lg">Link</a>
+              <a href="#" class="btn btn-input btn-lg btn-light">Input</a>
+              <a href="#" class="btn btn-primary btn-lg btn-light">Button</a>
+            </div>
+          </div>
+          <div>
+            <div class="fs-1">
+              <p class="mb-0">Options</p>
+            </div>
+            <div class="btn">
+              <p class="mb-0">Default</p>
+            </div>
+            <div class="btn btn-primary">
+              <p class="mb-0">Default</p>
+            </div>
+            <div class="btn btn-success">
+              <p class="mb-0">Success</p>
+            </div>
+            <div class="btn btn-info">
+              <p class="mb-0">Info</p>
+            </div>
+            <div class="btn btn-warning">
+              <p class="mb-0">Warning</p>
+            </div>
+            <div class="btn btn-danger">
+              <p class="mb-0">Danger</p>
+            </div>
+            <a href="#">Link</a>
+          </div>
+          <div>
+            <div class="fs-1">
+              <p>Sizes</p>
+            </div>
+            <div>
+              <button type="button" class="btn btn-primary btn-lg">
+                Large button
+              </button>
+            </div>
+            <div>
+              <button type="button" class="btn btn-primary mt-4">
+                Default button
+              </button>
+            </div>
+            <div>
+              <button type="button" class="btn btn-primary btn-sm mt-4">
+                Small button
+              </button>
+            </div>
+            <div>
+              <button type="button" class="btn btn-primary mt-4 xsbutton">
+                Extra Small button
+              </button>
+            </div>
+          </div>
+          <div>
+            <div class="fs-1">
+              <p class="mb-0">State</p>
+            </div>
+            <div>
+              <button type="button" class="btn btn-primary">
+                Primary Active Button
+              </button>
+              <button type="button" class="btn btn-primary disabled">
+                Primary Disabled Button
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- ------FOOTER----- -->
+    <footer
+      class="text-uppercase d-flex justify-content-center align-items-center w-100"
+    >
+      <p>Copyright © 2022 KodeGo WD15</p>
+    </footer>
+  </body>
+  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/index.js"></script>
+</html>

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/custom-style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>[WD15]Bootstrap Hands On 1</title>
+  </head>
+  <body>
+    <header class="container-fluid">
+      <div class="row">
+        <div
+          class="container d-flex align-items-center justify-content-between p-3"
+        >
+          <div class="d-flex align-items-center">
+            <p class="h3 mb-0">bootstrap.</p>
+            <div>
+              <ul class="nav text-uppercase fs-6 ps-3">
+                <li class="nav-item">
+                  <a class="nav-link active navigation" href="./index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navigation" href="./blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navigation" href="./login.html">Log In</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navigation" href="./handson2.html"
+                    >Hands On 2</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Requirements
+            </button>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="./requirement1.html"
+                  >Requirement 1</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item active" href="./requirement2.html"
+                  >Requirement 2</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="./requirement3.html"
+                  >Requirement 3</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="./requirement4.html"
+                  >Requirement 4</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="./requirement5.html"
+                  >Requirement 5</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ----------MAIN-------- -->
+    <main
+      class="container p-5 d-flex flex-column justify-content-center main-rtwo"
+    >
+      <div class="row">
+        <div>
+          <div class="mb-5">
+            <p class="display-4">Requirement 2</p>
+          </div>
+          <table class="table table-hover table-striped table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">Button</th>
+                <th scope="col">Link</th>
+                <th scope="col">Class</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <button class="btn">default</button>
+                </td>
+                <td>
+                  <a href="#">default</a>
+                </td>
+                <td>
+                  <p>btn</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <button class="btn btn-primary">Primary</button>
+                </td>
+                <td>
+                  <a href="#" class="btn btn-primary">Primary</a>
+                </td>
+                <td>
+                  <p>btn btn-primary</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <button class="btn btn-info">Info</button>
+                </td>
+                <td>
+                  <a href="#" class="btn btn-info">info</a>
+                </td>
+                <td>
+                  <p>btn btn-info</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <button class="btn btn-success">Success</button>
+                </td>
+                <td>
+                  <a href="#" class="btn btn-success">Success</a>
+                </td>
+                <td>
+                  <p>btn btn-success</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <button class="btn btn-warning">Warning</button>
+                </td>
+                <td>
+                  <a href="#" class="btn btn-warning">Warning</a>
+                </td>
+                <td>
+                  <p>btn btn-warning</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <button class="btn btn-danger">Danger</button>
+                </td>
+                <td>
+                  <a href="#" class="btn btn-danger">Danger</a>
+                </td>
+                <td>
+                  <p>btn btn-danger</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <button class="btn btn-dark">Inverse</button>
+                </td>
+                <td>
+                  <a href="#" class="btn btn-dark">Inverse</a>
+                </td>
+                <td>
+                  <p>btn btn-danger</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <button class="btn btn-link">Link</button>
+                </td>
+                <td>
+                  <a href="#" class="btn btn-link">Link</a>
+                </td>
+                <td>
+                  <p>btn btn-link</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <button class="btn btn-primary btn-lg">Large</button>
+                </td>
+                <td>
+                  <a href="#" class="btn btn-primary btn-lg">Large</a>
+                </td>
+                <td>
+                  <p>btn btn-primary btn-lg</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <button class="btn btn-primary btn-sm">Small</button>
+                </td>
+                <td>
+                  <a href="#" class="btn btn-primary btn-sm">Small</a>
+                </td>
+                <td>
+                  <p>btn btn-primary btn-sm</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <button class="btn btn-primary btn-mini">Mini</button>
+                </td>
+                <td>
+                  <a href="#" class="btn btn-primary btn-mini">Mini</a>
+                </td>
+                <td>
+                  <p>btn btn-primary btn-mini</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="d-grid gap-2">
+                  <button class="btn btn-primary">Block</button>
+                </td>
+                <td>
+                  <a href="#" class="d-grid gap-2 btn btn-primary">Block</a>
+                </td>
+                <td>
+                  <p>btn btn-primary btn-block</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <button class="btn btn-primary disabled">Disabled</button>
+                </td>
+                <td>
+                  <a href="#" class="btn btn-primary disabled">Disabled</a>
+                </td>
+                <td>
+                  <p>btn btn-primary disabled</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+    <!-- ------FOOTER----- -->
+    <footer
+      class="text-uppercase d-flex justify-content-center align-items-center"
+    >
+      <p>Copyright © 2022 KodeGo WD15</p>
+    </footer>
+  </body>
+  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/index.js"></script>
+</html>

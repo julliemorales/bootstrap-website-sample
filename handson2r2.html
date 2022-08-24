@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/custom-style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>[WD15]Bootstrap Hands On 2</title>
+  </head>
+  <body>
+    <header class="container-fluid">
+      <div class="row">
+        <div
+          class="container d-flex align-items-center justify-content-between p-3"
+        >
+          <div class="d-flex align-items-center">
+            <p class="h3 mb-0">bootstrap.</p>
+            <div>
+              <ul class="nav text-uppercase fs-6 ps-3">
+                <li class="nav-item">
+                  <a class="nav-link navigation" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navigation" href="./blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navigation" href="./login.html">Log In</a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link navigation fw-bolder"
+                    href="./handson2.html"
+                    >Hands On 2</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Requirements
+            </button>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="./handson2r1.html"
+                  >Requirement 1</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item active" href="./handson2r2.html"
+                  >Requirement 2</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="./handson2r3.html"
+                  >Requirement 3</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="./handson2r4.html"
+                  >Requirement 4</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ----------MAIN-------- -->
+    <main
+      class="container p-5 d-flex flex-column justify-content-center main-index"
+    >
+      <div class="row">
+        <div class="mb-5">
+          <p class="display-4">Requirement 2 (Hands On 2)</p>
+        </div>
+        <div class="fs-1">
+          <p class="mb-0">Borders Utilities</p>
+          <div class="container">
+            <div class="row">
+              <div class="col-4 col-lg-2 col-md-3">
+                <img
+                  class="border-top border-bottom border-primary border-2"
+                  src="./img/cat.png"
+                  alt="picture of a cat logo"
+                />
+              </div>
+              <div class="col-4 col-lg-2 col-md-3">
+                <img
+                  class="border border-danger rounded-circle border-2"
+                  src="./img/cat.png"
+                  alt="picture of a cat logo"
+                />
+              </div>
+              <div class="col-4 col-lg-2 col-md-3">
+                <img
+                  class="border border-primary border-end-0 border-2"
+                  src="./img/cat.png"
+                  alt="picture of a cat logo"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- ------FOOTER----- -->
+    <footer
+      class="text-uppercase d-flex justify-content-center align-items-center w-100 footer-index position-absolute bottom-0"
+    >
+      <p>Copyright © 2022 KodeGo WD15</p>
+    </footer>
+  </body>
+  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/index.js"></script>
+</html>

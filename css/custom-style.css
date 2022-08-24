@@ -1,0 +1,79 @@
+header {
+  background-color: #615d68;
+}
+
+header p {
+  color: #ebb5c0;
+}
+
+.navigation {
+  color: white !important;
+}
+
+main {
+  /* background-color: #ffcdb2; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* .main-index {
+  height: calc(100vh - 200px);
+} */
+
+@media screen and (min-width: 768px) {
+  .footer-index {
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+/* @media screen and (min-width: 992px) {
+  .footer-index {
+    position: absolute;
+    bottom: 0;
+  }
+} */
+
+/* .main-rtwo {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-blog {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+.apex {
+  color: #615d68 !important;
+}
+
+footer {
+  background-color: #615d68;
+  height: 128px;
+  color: white;
+}
+
+.dropdown-item.active {
+  background-color: #b5838d !important;
+}
+
+.signin {
+  background-color: #b5838d;
+  border: none;
+}
+
+.signin:hover {
+  background-color: #9c6c76;
+}
+
+.button-styles-p {
+  background-color: #39363b;
+}
+
+.xsbutton {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+}
+
+img {
+  height: 125px;
+  width: 125px;
+}
